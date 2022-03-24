@@ -1,0 +1,197 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0 ,7);
+    font: normal 12pt Times;
+}
+
+ul{
+    padding: 0px!important;
+}
+
+.menu-principal2{
+    width: 100%;
+    background-color: #000000;
+    height: 90px;
+}
+
+main, .content{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+
+}
+
+.logo2{
+    float: left;
+    padding: 15px;
+    width: 72%;
+    list-style: none;
+}
+
+
+.redes-sociais ul li{
+    margin-left: 23px;
+    display: inline-block;
+    float: left;
+}
+
+.redes-sociais{
+    width: 30%;
+    float: right;
+}
+
+ul li{
+    display: inline-block;
+    padding: 9px;
+    position: relative;
+    top: 15px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.header-2a{
+    width: 980px;
+    margin: 0 auto;
+    padding: 17px;
+}
+
+.menu-urls2{
+    height: 95px;
+    border-bottom: 1px solid #efefef;
+}
+
+.menu2 ul li{
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 15px;
+    height: 60px;
+}
+
+.menu2 ul li a:hover{
+    border-bottom: 3px solid #00bac6;
+}
+
+.menu2 ul li a:hover{
+    color: #00bac6;
+}
+
+.menu2 ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: 14px;
+}
+
+.menu2{
+    width: 70%;
+    float: left;
+}
+
+.pesquisa{
+    width: 30%;
+    height: 95px;
+    float: left;
+    text-align: center;
+}
+
+.pesquisa input{
+    background-image: url("../img/lupa.png");
+    background-repeat: no-repeat;
+    height: 3px;
+    padding: 10px;
+    width: 190px;
+    margin-top: 35px;
+    background-position: 100%;
+    border: 1px solid #d6d6d6;
+}
+
+.texto-destaque2 h1{
+    color: #00bac6;
+    
+}
+
+h1{
+    text-indent: -995px;
+    text-align: center;
+}
+
+.texto-destaque2 p{
+    color: white;
+    font: normal 14pt Times;
+    text-align: center;
+}
+
+.texto-destaque2{
+    text-align: center;
+}
+
+.texto-destaque2{
+    color: white;
+    font: normal 14pt Times;
+    text-align: center;
+}
+.col-3{
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 33.3%;
+    float:left;
+    position: relative;
+    background: transparent;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+
+.col-3 h3{
+    color: #00bac6;
+    text-decoration: none;
+}
+
+.col-3 a{
+    color: white;
+}
+
+.col-4{
+    margin-top: 90px;
+    float: right;
+    width: 25%;
+    text-align: center;
+    
+    
+}
+
+.col-4 img{
+    cursor: pointer;
+    margin: 0 auto;
+    padding-top: 1em;
+    vertical-align: middle;
+    
+}
+
+.col-4 img:hover{
+    margin-top: 10px!important;
+    position: relative!important;
+}
+
+.bloco-logos{
+    height: 170px;
+    position: relative;
+}
+
+.bloco-logos{
+    margin-top: 60px;
+}
+
+.col-100{
+    margin-top: -10px;
+}
+
+
+
+
+

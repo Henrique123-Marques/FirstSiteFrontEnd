@@ -1,0 +1,186 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0, 7);
+    font: normal 12pt Times;
+}
+
+ul{
+    padding: 0px!important;
+}
+
+.menu-principal{
+    width: 100%;
+    background-color: #000000;
+    height: 80px;
+}
+
+main, .content{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.logo{
+    float: left;
+    padding: 5px;
+    width: 35%;
+}
+
+.Midia ul li{
+    margin-left: 23px;
+    display: inline-block;
+    float: left;
+}
+
+.Midia{
+    width: 25%;
+    float: right;
+    padding: 5px;
+}
+
+.header-2{
+    width: 970px;
+    margin: 0 auto;
+    padding: 17px;
+}
+
+.menu-urls{
+    height: 30px;
+    border-bottom: 1px solid #efefef;
+}
+
+.menu ul li{
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 15px;
+    margin-top: -155px;
+    height: 50px;
+}
+
+#menu{
+    margin-top: -85px;
+}
+
+.menu ul li a:hover{
+    border-bottom: 3px solid #00bac6;
+}
+
+.menu ul li a:hover{
+    color: #00bac6;
+}
+
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.pesquisa{
+    width: 30%;
+    float: right;
+    text-align: center;
+}
+
+.pesquisa input{
+    background-image: url("../img/lupa.png");
+    background-repeat: no-repeat;
+    height: 3px;
+    padding: 12px;
+    width: 190px;
+    margin-top: 25px;
+    margin-left: -205px;
+    background-position: 100%; 
+    border: 1px solid #d6d6d6 ;
+}
+
+.col-100{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.texto-destaque{
+    text-align: center;
+}
+
+.texto-destaque h1{
+    color: #00bac6;
+}
+
+
+.texto-destaque h2{
+    color: #00bac6;
+}
+
+.texto-destaque p{
+    color: white;
+    font: normal 13pt Times;
+    text-align: center;
+}
+
+.eros{
+    margin-top: 40px;
+}
+
+.tycho{
+    margin-top: 40px;
+}
+
+.thoth{
+    margin-top:40px;
+}
+
+.Rhea{
+    margin-top: 40px;
+}
+
+.Triton{
+    margin-top: 40px;
+}
+
+.nauvoo{
+    margin-top: 40px;
+}
+
+.col-4{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.col-4 img{
+    cursor: pointer;
+    margin: 0 auto;
+    padding-top: 1em;
+    vertical-align: middle;
+}
+
+.col-4:hover{
+    position: relative;
+}
+
+.bloco-logos{
+    margin-top: 10px;
+}
+
+.col-100{
+    margin-top: 30px;
+}
+
+.map p{
+    color: white;
+    font: normal 13pt Times;
+    text-align: center;    
+}
+
+.rodape_site img{
+    margin-top: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+   
+    left: -147px;
+}

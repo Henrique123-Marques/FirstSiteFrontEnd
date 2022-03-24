@@ -1,0 +1,328 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0, 7);
+    font: normal 12pt Times;
+}
+
+ul{
+    padding: 0px!important;    
+}
+
+.menu-principal{
+    width: 100%;    
+    background-color: #000000;
+    height: 80px;
+ }
+
+main, .content{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.logo {
+    float: left;    
+    padding: 5px;
+    width: 35%;
+}
+
+.Midia ul li{
+    margin-left: 23px;
+    display: inline-block;
+    float: left;
+}
+
+.Midia{
+    width: 25%;
+    float: right;
+    padding: 5px;
+}
+
+.header-2{
+    width: 980px;
+    margin: 0 auto;
+    padding: 17px;
+}
+
+.menu-urls{
+    height: 80px;
+    border-bottom: 3px solid #efefef;    
+}
+
+.menu ul li{
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 15px;
+    height: 50px; 
+}
+
+.menu ul li a:hover{
+    border-bottom: 3px solid #00bac6;
+}
+
+.menu ul li a:hover{
+    color: #00bac6;   
+}
+
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.menu{
+    width: 70%;
+    float: left;
+    
+}
+    
+.pesquisa{
+    width: 30%;
+    float: right;
+    text-align: center;
+}
+
+.pesquisa input{
+    background-image: url("../img/lupa.png");
+    background-repeat: no-repeat;
+    height: 3px;
+    padding: 12px;
+    width: 190px;
+    margin-top: 10px;
+    background-position: 100%; 
+    border: 1px solid #d6d6d6 ;
+}
+
+.col-100{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+button.slick-prev{
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('../img/Setaesquerda.png');
+    top: 35%;
+    left: 7%;
+}
+
+button.slick-next{
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('../img/Setadireita.png');
+    top: 35%;
+    right: 7%;
+}
+.slick-list{
+    width: 100%!important;
+}
+
+.slider-principal{
+    overflow-x: hidden;
+}
+
+.slick-dots li button{
+
+    font-size: 0px;
+    border: 5px solid #ffffff;
+    width: 26px;
+    height: 26px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 45%;
+    top: 650px;
+}
+
+li.slick-active button{
+    background: #00bac6;
+}
+
+.slick-dots li {
+    padding-left: 10px;
+    display: inline-block;
+}
+
+.texto-destaque{
+    text-align: center;
+}
+
+.texto-destaque strong{
+    color: #00bac6;
+}
+
+.texto-destaque h1{
+    color: #00bac6;
+}
+
+.texto-destaque p{
+    color: white;
+    font: normal 13pt Times;
+    text-align: center;
+}
+
+.col-3{
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 33.3%;
+    float: right;
+    position: static;
+    background: transparent;
+    text-align: center;
+    margin-left: 110px;
+}
+
+.col-3 h3{
+    color: #00bac6;
+    text-decoration: none;
+}
+
+.col-3 a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+.bloco-imagens img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+.bloco-imagens{
+    height: 300px;
+    border: 1px solid #c5c5c5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+}
+
+.bloco-imagens b, p{
+    text-align: left;
+}
+
+.bloco-text{
+     margin-top: 3em;
+}
+
+h3{
+    font-weight: normal!important;
+}
+
+.bloco-imagens-explicacao{
+    background-color: #eeeeee;
+}
+
+.col-4{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.col-4 img{
+    cursor: pointer;
+    margin: 0 auto;
+    padding-top: 1em;
+    vertical-align: middle;
+}
+
+.col-4 img:hover{
+    margin-top: 10px!important;
+    position: relative!important;
+}
+
+.bloco-logos{
+    height: 170px;
+    position: relative;
+}
+
+.bloco-logos{
+    margin-top: 60px;
+}
+
+.footer h3{
+    text-align: left;
+}
+
+.footer{
+    background-image: url('../img/footer.png');
+    color: #ffffff;
+}
+
+.footer-2{
+    background-image: url('../img/footer2.png');
+    color: #c1c1c1;
+    height: 90px;
+}
+
+.footer p{
+    width: 90%;
+    text-align: left;
+}
+
+.footer-2 p{
+    padding: 10px;
+}
+
+.clock:before{
+    content: '';
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    background-image: url('../img/clock.png');
+    float: left;
+    background-repeat: no-repeat;
+    padding-left: 5px;
+}
+
+.local:before, .emailico:before, .telefoneico:before{
+    content: '';
+    width: 17px;
+    height: 24px;
+    display: inline-block;
+    float: left;
+    background-repeat: no-repeat;
+    padding-left: 5px;
+}
+
+.local:before{
+    background-image: url('../img/local.png');
+}
+
+.emailico:before{
+    background-image: url('../img/emailico.png');
+}
+
+.telefoneico:before{
+    background-image: url('../img/telefoneico.png');
+}
+
+
+body{
+    background-color: rgba(0, 0, 0, 0, 7);
+}
+
+.politica{
+    margin-left: -100px;
+    
+}
